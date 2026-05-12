@@ -57,11 +57,6 @@
     <Compile Include="Forms\DashboardForm1.Designer.cs">
       <DependentUpon>DashboardForm1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\DashboardForm11.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DashboardForm1.resx</DependentUpon>
-    </Compile>
     <Compile Include="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,22 +101,11 @@
     <EmbeddedResource Include="Forms\BuildOrderForm.resx">
       <DependentUpon>BuildOrderForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\DashboardForm1.resx">
-      <DependentUpon>DashboardForm1.cs</DependentUpon>
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>DashboardForm11.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\OrderLineItemControl.resx">
       <DependentUpon>OrderLineItemControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PasswordControl1.resx">
-      <DependentUpon>PasswordControl1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PINControl1.resx">
-      <DependentUpon>PINControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ProductCardControl.resx">
       <DependentUpon>ProductCardControl.cs</DependentUpon>

@@ -74,9 +74,7 @@ namespace IT_Assessment_2.Forms
             }
         }
 
-        // =========================
-        // LOW-STOCK GRID
-        // =========================
+        // low stock grid
         private void PopulateLowStockGrid()
         {
             try
@@ -129,9 +127,7 @@ namespace IT_Assessment_2.Forms
             dataGridView1.MultiSelect = false;
         }
 
-        // =========================
-        // ROLE-BASED ACCESS
-        // =========================
+        // role based access
         private void ApplyRoleBasedAccess()
         {
             if (SessionManager.CurrentUser == null) return;
