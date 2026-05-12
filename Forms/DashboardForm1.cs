@@ -19,9 +19,7 @@ namespace IT_Assessment_2.Forms
             ApplyRoleBasedAccess();
         }
 
-        // =========================
-        // WELCOME / DATE
-        // =========================
+        // welcome and user info set up
         private void SetUpUserInfo()
         {
             if (SessionManager.CurrentUser != null)
@@ -33,7 +31,7 @@ namespace IT_Assessment_2.Forms
                 welcomeLbl.Text = "welcome";
             }
 
-            dateLbl.Text = DateTime.Now.ToString("dddd, d MMMM yyyy");
+            label2.Text = DateTime.Now.ToString("dddd, d MMMM yyyy");
         }
 
         // =========================
