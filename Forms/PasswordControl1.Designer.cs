@@ -17,7 +17,6 @@ namespace IT_Assessment_2.Forms
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PasswordControl1));
             this.pnlCard = new System.Windows.Forms.Panel();
             this.lblUsername = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
@@ -30,16 +29,13 @@ namespace IT_Assessment_2.Forms
             this.lblNewStaff = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlCard.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlCard
             // 
             this.pnlCard.BackColor = System.Drawing.Color.White;
-            this.pnlCard.Controls.Add(this.pictureBox1);
             this.pnlCard.Controls.Add(this.lblUsername);
             this.pnlCard.Controls.Add(this.txtUsername);
             this.pnlCard.Controls.Add(this.lblPassword);
@@ -182,15 +178,6 @@ namespace IT_Assessment_2.Forms
             this.label1.TabIndex = 0;
             this.label1.Text = "amane staff portal";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(197, 86);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(158, 50);
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
             // PasswordControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -204,7 +191,6 @@ namespace IT_Assessment_2.Forms
             this.pnlCard.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -223,6 +209,5 @@ namespace IT_Assessment_2.Forms
         private System.Windows.Forms.Label lblNewStaff;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

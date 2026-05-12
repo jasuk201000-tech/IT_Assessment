@@ -17,9 +17,7 @@ namespace IT_Assessment_2.Forms
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PINControl1));
             this.pnlCard = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.lblMode = new System.Windows.Forms.Label();
@@ -36,14 +34,12 @@ namespace IT_Assessment_2.Forms
             this.button9 = new System.Windows.Forms.Button();
             this.btnSwitchToPassword = new System.Windows.Forms.Button();
             this.pnlCard.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlCard
             // 
             this.pnlCard.BackColor = System.Drawing.Color.White;
-            this.pnlCard.Controls.Add(this.pictureBox1);
             this.pnlCard.Controls.Add(this.panel1);
             this.pnlCard.Controls.Add(this.lblMode);
             this.pnlCard.Controls.Add(this.lblQuickPin);
@@ -62,15 +58,6 @@ namespace IT_Assessment_2.Forms
             this.pnlCard.Name = "pnlCard";
             this.pnlCard.Size = new System.Drawing.Size(560, 660);
             this.pnlCard.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(198, 80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(167, 50);
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -286,7 +273,6 @@ namespace IT_Assessment_2.Forms
             this.Size = new System.Drawing.Size(648, 743);
             this.pnlCard.ResumeLayout(false);
             this.pnlCard.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -310,7 +296,6 @@ namespace IT_Assessment_2.Forms
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button btnSwitchToPassword;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -107,6 +107,12 @@
     <EmbeddedResource Include="Forms\OrderLineItemControl.resx">
       <DependentUpon>OrderLineItemControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PasswordControl1.resx">
+      <DependentUpon>PasswordControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PINControl1.resx">
+      <DependentUpon>PINControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\ProductCardControl.resx">
       <DependentUpon>ProductCardControl.cs</DependentUpon>
     </EmbeddedResource>
